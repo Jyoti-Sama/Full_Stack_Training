@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.board{
+    display: block;
+    width: 100vw;
+}
+.box{
+    height: 104px;
+    width: 10%;
+    display: block;
+    float: left;
+    background-color: bisque;    
+}
+.box:nth-child(odd){
+    background-color: white;
+}
+.box:nth-child(even){
+    background-color: black;
+}
+
+.box2{
+    height: 104px;
+    width: 10%;
+    display: block;
+    float: left;
+}
+.box2:nth-child(odd){
+    background-color: black;
+}
+.box2:nth-child(even){
+    background-color: white;
+}
